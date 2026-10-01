@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabriel Fontineles | Engenharia de dados e BI</title>
+  <meta name="description" content="Portfólio de Gabriel Fontineles, engenheiro de dados e desenvolvedor de BI. Projetos, demonstrações e aprendizados em técnica e gestão.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://gabrielfontineles.com.br/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Gabriel Fontineles">
+  <meta property="og:title" content="Gabriel Fontineles | Engenharia de dados e BI">
+  <meta property="og:description" content="Projetos, demonstrações e aprendizados em técnica e gestão.">
+  <meta property="og:url" content="https://gabrielfontineles.com.br/">
+  <meta property="og:image" content="https://gabrielfontineles.com.br/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Gabriel Fontineles, engenharia de dados e BI">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://gabrielfontineles.com.br/",
+    "inLanguage": "pt-BR",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Gabriel Fontineles",
+      "url": "https://gabrielfontineles.com.br/",
+      "image": "https://gabrielfontineles.com.br/assets/img/hero-1.jpg",
+      "jobTitle": "Engenheiro de dados e desenvolvedor de BI",
+      "email": "mailto:gvrffontineles@gmail.com",
+      "worksFor": { "@type": "Organization", "name": "Grupo Ferreira" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidade Estadual do Piauí (UESPI)" },
+      "knowsAbout": ["Engenharia de dados", "Business Intelligence", "Python", "SQL", "IBM DB2", "DuckDB", "Streamlit"],
+      "sameAs": [
+        "https://www.linkedin.com/in/gabriel-fontineles/",
+        "https://github.com/GFONTINELES"
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip" href="#projetos">Ir para os projetos</a>
+
+  <header class="topbar">
+    <a class="topbar__brand" href="#inicio" aria-label="Gabriel Fontineles, início">Gabriel Fontineles</a>
+    <nav aria-label="Seções">
+      <a href="#projetos">Projetos</a>
+      <a href="#aprendizados">Aprendizados</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Abertura ===== -->
+    <section class="hero" id="inicio">
+      <h1 class="hero__name">Olá, eu sou o Gabriel, engenheiro de dados e desenvolvedor de BI.</h1>
+
+      <p class="hero__lead">
+        Construo pipelines, painéis e ferramentas que levam a informação certa
+        para quem decide na operação.
+      </p>
+
+      <p class="hero__actions">
+        <a class="button" href="#projetos">Ver projetos e impacto</a>
+        <a class="textlink" href="#contato">Entrar em contato</a>
+      </p>
+
+      <!-- Troque as fotos em assets/img/ mantendo os nomes (hero-1.jpg, hero-2.jpg, hero-3.jpg)
+           e depois rode: python tools/otimizar_imagens.py (gera as versões .webp) -->
+      <div class="hero__photos">
+        <figure class="photo photo--a">
+          <picture>
+            <source type="image/webp"
+                    srcset="assets/img/hero-1-480.webp 480w, assets/img/hero-1-800.webp 800w, assets/img/hero-1-1200.webp 1200w"
+                    sizes="(max-width: 560px) calc(100vw - 40px), (max-width: 1240px) 37vw, 450px">
+            <img src="assets/img/hero-1.jpg" width="1200" height="1500" fetchpriority="high" alt="Gabriel trabalhando em frente ao computador">
+          </picture>
+        </figure>
+        <figure class="photo photo--b">
+          <picture>
+            <source type="image/webp"
+                    srcset="assets/img/hero-2-480.webp 480w, assets/img/hero-2-800.webp 800w, assets/img/hero-2-1200.webp 1200w"
+                    sizes="(max-width: 560px) calc(50vw - 25px), (max-width: 1240px) 27vw, 335px">
+            <img src="assets/img/hero-2.jpg" width="1200" height="1200" alt="Gabriel apresentando um painel para a equipe">
+          </picture>
+        </figure>
+        <figure class="photo photo--c">
+          <picture>
+            <source type="image/webp"
+                    srcset="assets/img/hero-3-480.webp 480w, assets/img/hero-3-800.webp 800w, assets/img/hero-3-1200.webp 1200w"
+                    sizes="(max-width: 560px) calc(50vw - 25px), (max-width: 1240px) 27vw, 335px">
+            <img src="assets/img/hero-3.jpg" width="1200" height="1600" alt="Gabriel em reunião de trabalho">
+          </picture>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Projetos ===== -->
+    <section class="section" id="projetos" aria-labelledby="projetos-titulo">
+      <div class="section__head">
+        <h2 id="projetos-titulo">Projetos</h2>
+        <p>Três trabalhos que mostram como penso: começar pelo problema real, entregar rápido e melhorar com o uso.</p>
+      </div>
+
+      <!-- Para adicionar um projeto, copie um bloco <article class="project"> inteiro.
+           Se tiver captura nova, inclua-a em tools/otimizar_imagens.py e rode o script. -->
+
+      <article class="project">
+        <div class="project__media">
+          <picture>
+            <source type="image/webp"
+                    srcset="assets/projects/projeto-1-640.webp 640w, assets/projects/projeto-1-1000.webp 1000w, assets/projects/projeto-1-1600.webp 1600w"
+                    sizes="(max-width: 860px) calc(100vw - 40px), 620px">
+            <img src="assets/projects/projeto-1.jpg" width="1600" height="1000" loading="lazy" decoding="async" alt="Tela do painel de análise de perdas e estoque">
+          </picture>
+        </div>
+        <div class="project__body">
+          <h3>Painel de análise de perdas e estoque</h3>
+          <p class="project__meta">Varejo, [ano]. Streamlit, DuckDB, Python</p>
+          <dl>
+            <dt>Desafio</dt>
+            <dd>Os times de loja e compras analisavam perdas em planilhas separadas, sem um critério único de priorização.</dd>
+            <dt>Solução</dt>
+            <dd>Um painel com classificação ABC, filtros por loja e categoria, controle de acesso por perfil e exportação dos dados.</dd>
+            <dt>Resultado</dt>
+            <dd>[Inclua um número real: tempo economizado, perdas reduzidas, usuários ativos.]</dd>
+            <dt>Aprendizado</dt>
+            <dd>[O que este projeto te ensinou: uma decisão que mudaria, um erro que evitaria, algo que passou a fazer sempre.]</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media">
+          <picture>
+            <source type="image/webp"
+                    srcset="assets/projects/projeto-2-640.webp 640w, assets/projects/projeto-2-1000.webp 1000w, assets/projects/projeto-2-1600.webp 1600w"
+                    sizes="(max-width: 860px) calc(100vw - 40px), 620px">
+            <img src="assets/projects/projeto-2.jpg" width="1600" height="1000" loading="lazy" decoding="async" alt="Diagrama do pipeline de dados do ERP para o painel">
+          </picture>
+        </div>
+        <div class="project__body">
+          <h3>Pipeline de dados do ERP para análises</h3>
+          <p class="project__meta">Engenharia de dados, [ano]. Python, SQL, IBM DB2</p>
+          <dl>
+            <dt>Desafio</dt>
+            <dd>Consultar o ERP diretamente deixava os relatórios lentos e dependentes de pedidos manuais à TI.</dd>
+            <dt>Solução</dt>
+            <dd>Rotinas de extração e transformação que carregam uma base analítica atualizada, com logs e validações a cada execução.</dd>
+            <dt>Resultado</dt>
+            <dd>[Inclua um número real: tempo de carga, relatórios atendidos, horas poupadas.]</dd>
+            <dt>Aprendizado</dt>
+            <dd>[O que este projeto te ensinou: uma decisão que mudaria, um erro que evitaria, algo que passou a fazer sempre.]</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media">
+          <!-- Vídeo: troque assets/video/projeto-3.mp4, a capa projeto-3-poster.jpg e as legendas projeto-3.vtt -->
+          <video controls preload="metadata" poster="assets/projects/projeto-3-poster.jpg" aria-label="Demonstração do validador de transferências promocionais">
+            <source src="assets/video/projeto-3.mp4" type="video/mp4">
+            <track kind="captions" src="assets/video/projeto-3.vtt" srclang="pt-BR" label="Português" default>
+            Seu navegador não reproduz este vídeo.
+          </video>
+        </div>
+        <div class="project__body">
+          <h3>Validador de transferências promocionais</h3>
+          <p class="project__meta">Operação de lojas, [ano]. Streamlit, SQL, Python</p>
+          <dl>
+            <dt>Desafio</dt>
+            <dd>Erros em pedidos de transferência para promoções só apareciam depois da separação das mercadorias.</dd>
+            <dt>Solução</dt>
+            <dd>Uma ferramenta que confere cada pedido contra as regras da promoção antes do envio e aponta o que corrigir.</dd>
+            <dt>Resultado</dt>
+            <dd>[Inclua um número real: erros evitados, retrabalho reduzido.]</dd>
+            <dt>Aprendizado</dt>
+            <dd>[O que este projeto te ensinou: uma decisão que mudaria, um erro que evitaria, algo que passou a fazer sempre.]</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== Aprendizados ===== -->
+    <section class="section" id="aprendizados" aria-labelledby="aprendizados-titulo">
+      <div class="section__head">
+        <h2 id="aprendizados-titulo">Considerações e aprendizados</h2>
+        <p>O que os projetos me ensinaram além do código.</p>
+      </div>
+
+      <div class="learnings">
+        <div class="learnings__col">
+          <h3>Na técnica</h3>
+          <p><strong>Dado confiável vem antes de gráfico bonito.</strong> Um painel só ganha confiança quando os números batem com o que a operação já conhece. Hoje valido a base antes de desenhar qualquer tela.</p>
+          <p><strong>Pipeline simples dura mais.</strong> Cada etapa extra é mais um ponto de falha e mais uma coisa para explicar. Prefiro rotinas pequenas, com log claro e fáceis de reexecutar.</p>
+          <p><strong>Sistema legado pede paciência.</strong> Trabalhar com um ERP antigo ensinou a separar a leitura pesada da análise, criando uma camada própria para consulta.</p>
+        </div>
+
+        <div class="learnings__col">
+          <h3>Na gestão</h3>
+          <p><strong>Entender a decisão antes de pedir requisitos.</strong> Perguntar "o que você vai decidir com isso?" muda o escopo e evita painéis que ninguém abre.</p>
+          <p><strong>Entregar em partes.</strong> Uma primeira versão útil na mão do usuário em poucos dias gera mais feedback do que semanas de planejamento.</p>
+          <p><strong>Documentar para não virar gargalo.</strong> Se só eu sei como a ferramenta funciona, ela não escala. Escrever o básico libera o time e me libera para o próximo problema.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trajetória: sobre, marcos e depoimentos ===== -->
+    <section class="section" id="trajetoria" aria-labelledby="trajetoria-titulo">
+      <div class="section__head">
+        <h2 id="trajetoria-titulo">Trajetória</h2>
+        <p>De onde venho e o que já entreguei.</p>
+      </div>
+
+      <div class="about">
+        <div class="about__text">
+          <p>Sou formado em Ciência da Computação pela UESPI e trabalho com dados no varejo. No Grupo Ferreira, rede de supermercados, conecto o ERP a painéis e ferramentas que os times de loja, compras e logística usam no dia a dia.</p>
+          <p>[Conte em duas ou três frases o que move você: o tipo de problema que gosta de resolver e como gosta de trabalhar com as pessoas.]</p>
+        </div>
+
+        <ul class="milestones">
+          <li><span class="milestones__year">[ano]</span><span>Primeiro painel em produção, usado por [número] pessoas.</span></li>
+          <li><span class="milestones__year">[ano]</span><span>Pipeline que reduziu [métrica] na atualização dos dados.</span></li>
+          <li><span class="milestones__year">[ano]</span><span>[Certificação, palestra, artigo ou reconhecimento.]</span></li>
+        </ul>
+      </div>
+
+      <!-- Liste só o que você usa de verdade e consegue explicar numa entrevista -->
+      <div class="skills">
+        <h3>Ferramentas e práticas</h3>
+        <dl>
+          <div>
+            <dt>Linguagens</dt>
+            <dd>Python, SQL</dd>
+          </div>
+          <div>
+            <dt>Bancos e motores</dt>
+            <dd>IBM DB2, DuckDB</dd>
+          </div>
+          <div>
+            <dt>Painéis e aplicações</dt>
+            <dd>Streamlit</dd>
+          </div>
+          <div>
+            <dt>Práticas</dt>
+            <dd>ETL, validação de dados, logs de execução, controle de acesso por perfil</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="quotes">
+        <blockquote>
+          <p>[Depoimento real de um colega ou gestor. Peça autorização antes de publicar.]</p>
+          <footer>[Nome, cargo]</footer>
+        </blockquote>
+        <blockquote>
+          <p>[Segundo depoimento, ou apague este bloco se ainda não tiver.]</p>
+          <footer>[Nome, cargo]</footer>
+        </blockquote>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="contact" id="contato">
+    <h2>Vamos conversar</h2>
+    <p>Quer saber mais sobre algum projeto ou trocar ideias sobre dados?</p>
+    <ul>
+      <li><a href="mailto:gvrffontineles@gmail.com">gvrffontineles@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/gabriel-fontineles/" rel="me">LinkedIn</a></li>
+      <li><a href="https://github.com/GFONTINELES" rel="me">GitHub</a></li>
+      <li><a href="assets/curriculo-gabriel-fontineles.pdf" download>Currículo (PDF)</a></li>
+    </ul>
+    <p class="contact__legal">Gabriel Fontineles, 2026</p>
+  </footer>
+
+</body>
+</html>
